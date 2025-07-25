@@ -6,6 +6,8 @@ import java.util.UUID;
 /**
  * Represents a single log entry with unique ID, timestamp, log level, service name, and message.
  */
+
+
 public class LogEntry {
     public String id;          // Unique identifier for the log
     public String timestamp;   // ISO-8601 formatted timestamp of log creation
@@ -24,4 +26,6 @@ public class LogEntry {
         this.service = service;
         this.message = message;
     }
+
+
 }

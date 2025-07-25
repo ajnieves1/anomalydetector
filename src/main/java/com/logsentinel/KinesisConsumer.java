@@ -8,7 +8,6 @@ import software.amazon.kinesis.coordinator.Scheduler;
 import software.amazon.kinesis.common.ConfigsBuilder;
 import software.amazon.kinesis.processor.ShardRecordProcessor;
 import software.amazon.kinesis.processor.ShardRecordProcessorFactory;
-import software.amazon.kinesis.retrieval.polling.PollingConfig;
 import software.amazon.kinesis.retrieval.KinesisClientRecord;
 import software.amazon.kinesis.exceptions.ShutdownException;
 import software.amazon.kinesis.exceptions.InvalidStateException;
@@ -18,7 +17,6 @@ import software.amazon.kinesis.lifecycle.events.LeaseLostInput;
 import software.amazon.kinesis.lifecycle.events.ShardEndedInput;
 import software.amazon.kinesis.lifecycle.events.ShutdownRequestedInput;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -27,7 +25,6 @@ public class KinesisConsumer {
 
     private static final String STREAM_NAME = "SusLogStream";
     private static final String APPLICATION_NAME = "LogConsumerApp"; // KCL tracks checkpoints under this name
-    private static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) {
         KinesisAsyncClient kinesisClient = KinesisAsyncClient.builder()
