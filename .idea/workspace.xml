@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="implemented AWS CloudWatch and Alarm System">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.0.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleOutputs/CloudWatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleOutputs/CloudWatch2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/CloudWatchLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unnamed.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/LogEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/LogEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/LogProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/LogProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/Main.java" afterDir="false" />
+    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="Created ci-cd.yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +122,7 @@
       <workItem from="1753310992269" duration="5263000" />
       <workItem from="1753318138873" duration="1805000" />
       <workItem from="1753381062445" duration="24771000" />
-      <workItem from="1753465812334" duration="9870000" />
+      <workItem from="1753465812334" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="WORKING VERSION">
       <option name="closed" value="true" />
@@ -175,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753474604411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1753479563971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753479563971</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +195,8 @@
     <MESSAGE value="cleaned up imports" />
     <MESSAGE value="testing push" />
     <MESSAGE value="implemented AWS CloudWatch and Alarm System" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented AWS CloudWatch and Alarm System" />
+    <MESSAGE value="Created ci-cd.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created ci-cd.yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
