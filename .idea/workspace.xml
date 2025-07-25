@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/KinesisConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/LogSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/opensearch/OpenSearchLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/LogProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/logsentinel/simulator/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="WORKING VERSION" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,12 +107,36 @@
       <updated>1753310991250</updated>
       <workItem from="1753310992269" duration="5263000" />
       <workItem from="1753318138873" duration="1805000" />
-      <workItem from="1753381062445" duration="24327000" />
+      <workItem from="1753381062445" duration="24636000" />
     </task>
+    <task id="LOCAL-00001" summary="WORKING VERSION">
+      <option name="closed" value="true" />
+      <created>1753423756815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753423756815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WORKING VERSION" />
+    <option name="LAST_COMMIT_MESSAGE" value="WORKING VERSION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
