@@ -1,4 +1,4 @@
-package com.logsentinel.simulator;
+package com.logsentinel;
 
 import java.time.Instant;
 import java.util.UUID;

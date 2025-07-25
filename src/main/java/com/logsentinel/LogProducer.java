@@ -1,9 +1,10 @@
-package com.logsentinel.simulator;
+package com.logsentinel;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import software.amazon.awssdk.services.kinesis.KinesisClient;
 import software.amazon.awssdk.services.kinesis.model.PutRecordRequest;
 import software.amazon.awssdk.core.SdkBytes;
+
 
 import java.nio.charset.StandardCharsets;
 import java.util.Random;
@@ -19,15 +20,16 @@ public class LogProducer {
 
     private final KinesisClient client;   // AWS Kinesis client used to send records
     private final String streamName;      // Target Kinesis stream name
-
+    private final CloudWatchLogger cloudWatchLogger;
     /**
      * Constructor to initialize the LogProducer with Kinesis client and stream name.
      * @param client AWS Kinesis client to use for sending data
      * @param streamName Name of the Kinesis stream to send logs to
      */
-    public LogProducer(KinesisClient client, String streamName) {
+    public LogProducer(KinesisClient client, String streamName, CloudWatchLogger cloudWatchLogger) {
         this.client = client;
         this.streamName = streamName;
+        this.cloudWatchLogger = cloudWatchLogger;
     }
 
     /**
@@ -64,5 +66,9 @@ public class LogProducer {
 
         // Print confirmation to console
         System.out.println("Sent log: " + json);
+        if (cloudWatchLogger != null) {
+            cloudWatchLogger.log(json);
+        }
+
     }
 }

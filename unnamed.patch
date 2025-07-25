@@ -1,0 +1,14 @@
+Index: src/main/java/com/logsentinel/KinesisConsumer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/logsentinel/KinesisConsumer.java b/src/main/java/com/logsentinel/KinesisConsumer.java
+--- a/src/main/java/com/logsentinel/KinesisConsumer.java	
++++ b/src/main/java/com/logsentinel/KinesisConsumer.java	(date 1753423570847)
+@@ -1,4 +1,4 @@
+-package com.logsentinel
++package com.logsentinel;
+ 
+ import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider;
+ import software.amazon.awssdk.services.cloudwatch.CloudWatchAsyncClient;

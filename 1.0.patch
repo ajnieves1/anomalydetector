@@ -1,0 +1,18 @@
+Subject: [PATCH] testing push
+---
+Index: src/main/java/com/logsentinel/KinesisConsumer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/logsentinel/KinesisConsumer.java b/src/main/java/com/logsentinel/KinesisConsumer.java
+--- a/src/main/java/com/logsentinel/KinesisConsumer.java	(revision c3dfa609c486f744c2a8303356d18dc86867f6c0)
++++ b/src/main/java/com/logsentinel/KinesisConsumer.java	(revision 179c64abf75113b763298a0e5286416465ca9686)
+@@ -17,6 +17,7 @@
+ import software.amazon.kinesis.lifecycle.events.ShardEndedInput;
+ import software.amazon.kinesis.lifecycle.events.ShutdownRequestedInput;
+ 
++// This is a test
+ 
+ import java.nio.charset.StandardCharsets;
+ import java.util.List;
