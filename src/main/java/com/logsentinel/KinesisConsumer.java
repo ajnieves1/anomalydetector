@@ -17,6 +17,7 @@ import software.amazon.kinesis.lifecycle.events.LeaseLostInput;
 import software.amazon.kinesis.lifecycle.events.ShardEndedInput;
 import software.amazon.kinesis.lifecycle.events.ShutdownRequestedInput;
 
+// This is a test
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
