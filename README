@@ -4,14 +4,15 @@ How to run:
 Make sure your AWS credentials are configured on your machine (aws configure) or via environment variables so the app can authenticate and access the stream.
 Make sure the app is using the correct AWS region (Region.US_EAST_1 in your code).
 
-2.  Enter this command 'aws kinesis create-stream --stream-name SusLogStream --shard-count 1 --region us-east-1'
+2.  Enter this command aws kinesis create-stream --stream-name SusLogStream --shard-count 1 --region us-east-1
 
-3. Enter this command: 'java -jar target/logsimulator-1.0-SNAPSHOT.jar' (runs logsimulator)
+3. Enter this command: java -jar target/logsimulator-1.0-SNAPSHOT.jar (runs logsimulator)
 
 
-4. to run the consumer: 'java -cp target/logsimulator-1.0-SNAPSHOT.jar com.logsentinel.KinesisConsumer' (runs kinesisconsumer)
+4. to run the consumer: java -cp target/logsimulator-1.0-SNAPSHOT.jar com.logsentinel.KinesisConsumer (runs kinesisconsumer)
 
-5. Seng log to CloudWatch: mvn clean compile exec:java -DexecmainClass="com.logsentinel.Main"
+5. Seng log to CloudWatch: mvn exec:java "-Dexec.mainClass=com.logsentinel.Main"
+"
 
 
 "AAAAAAAAAAHFN8mkBBpiQa2ZTaeTlW0zAGQM+21Zs5+M6QjEnK+N1RNOaFm0OE4Bhu5h7zsObH1AGzPWV2JcZdqb5SNrrhG26kFl0sVHw7TPyGb2j3xKZ4hDISYS7i/hhw2WNX9LwdoNgVZaxaGCd47YFhmr/hx4WgK7aXQI/+6UJMFx/qDCOwr8mCw387+RdxXux+Sm4J6F8MUn46OjUEYy+sS9JSt50BI6g3ScHKWNwW3zrQCKVw=="
