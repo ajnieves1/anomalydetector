@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="Added Ci-CD workflow">
-      <change afterPath="$PROJECT_DIR$/infrastructure/variables.tf" afterDir="false" />
+    <list default="true" id="2bc25a3a-85b8-4770-abe3-edb0ce91c215" name="Changes" comment="implemented terraform">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
@@ -125,7 +124,7 @@
       <workItem from="1753310992269" duration="5263000" />
       <workItem from="1753318138873" duration="1805000" />
       <workItem from="1753381062445" duration="24771000" />
-      <workItem from="1753465812334" duration="14210000" />
+      <workItem from="1753465812334" duration="14538000" />
     </task>
     <task id="LOCAL-00001" summary="WORKING VERSION">
       <option name="closed" value="true" />
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753479950063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implemented terraform">
+      <option name="closed" value="true" />
+      <created>1753488694208</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753488694208</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
     <MESSAGE value="implemented AWS CloudWatch and Alarm System" />
     <MESSAGE value="Created ci-cd.yml" />
     <MESSAGE value="Added Ci-CD workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Ci-CD workflow" />
+    <MESSAGE value="implemented terraform" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented terraform" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
