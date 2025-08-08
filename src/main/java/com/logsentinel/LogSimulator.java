@@ -27,7 +27,7 @@ public class LogSimulator {
     private static final String[] LEVELS = {"INFO", "WARN", "ERROR", "DEBUG", "TRACE"};
 
     public static void main(String[] args) throws Exception {
-        Region region = Region.US_EAST_1; // Update to your AWS region
+        Region region = Region.US_EAST_1; 
 
         // Initialize AWS Kinesis client
         KinesisClient kinesisClient = KinesisClient.builder()
