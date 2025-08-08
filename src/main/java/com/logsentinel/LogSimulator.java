@@ -18,7 +18,7 @@ import java.util.Random;
 public class LogSimulator {
 
     // Your Kinesis stream name
-    private static final String STREAM_NAME = "SusLogStream"; // Replace with your actual stream name
+    private static final String STREAM_NAME = "SusLogStream"; // If changing name of stream, change this field
 
     // Used to convert objects to JSON
     private static final ObjectMapper mapper = new ObjectMapper();
