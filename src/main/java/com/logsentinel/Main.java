@@ -9,10 +9,10 @@ import software.amazon.awssdk.services.kinesis.KinesisClient;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        String streamName = "SusLogStream"; // Replace with your actual stream
-        String logGroupName = "LogGroup"; // Replace with your desired CloudWatch log group
-        String logStreamName = "SusLogStream";      // Replace with your desired log stream
-        String region = "us-east-1";              // Replace with your region
+        String streamName = "SusLogStream"; // Stream names must match what is on AWS
+        String logGroupName = "LogGroup"; // Log Group Name must be the same as on AWS
+        String logStreamName = "SusLogStream";      // Log Stream name must be the same as on AWS
+        String region = "us-east-1";              
 
         // Step 1: Create the Kinesis client
         KinesisClient kinesisClient = KinesisClient.builder()
